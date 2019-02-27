@@ -41,10 +41,10 @@ For example:
 ```
 CascadingDropdown.init({
 	selector:'.cascadingDropdown',
-  source: function(url,parms,callback) {
-    //A json array containing Text and Value properties for each option must be passed into the callback.
-    callback([{"Text":"First Value","Value":"1"},{"Text":"Second Value","Value":"2"}]);
-  }
+  	source: function(url,parms,callback) {
+    		//A json array containing Text and Value properties for each option must be passed into the callback.
+    		callback([{"Text":"First Value","Value":"1"},{"Text":"Second Value","Value":"2"}]);
+  	}
 });
 ```
 
